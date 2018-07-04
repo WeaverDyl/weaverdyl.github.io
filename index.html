@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dylan Weaver</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    </head>
 
+    <body style="background-color: #f7f7f7">
+        <div id="heading" class="container text-center mb-5">
+            <h1 class="mt-5 display-1">Dylan Weaver</h1>
+            <h1 class="mb-5">Computer Science Student &amp; Software Developer</h1>
+
+            <a href="https://github.com/WeaverDyl" class="btn btn-primary" target="_blank"><i class="fab fa-github"></i> Github</a>
+            <a href="mailto:weaver.dyl@gmail.com" class="btn btn-primary"><i class="fas fa-at"></i> Email</a>
+            <a href="https://www.linkedin.com/in/weaverdyl/" class="btn btn-primary" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+
+        <div id="projects" class="container text-center mt-5">
+            <h1>Selected Projects</h1>
+            <p class="lead mb-3">View all of my projects on my <a href="https://github.com/WeaverDyl" target="_blank">Github profile</a>.</p>
+        
+            <div class="row">
+                <div id="cstools" class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top rounded" src="images/cstoolsthumbnail.png">
+                        <div class="card-body">
+                            <h3 class="font-weight-bold">Cryptocurrency &amp; Stock Tools</h3>
+                            <p class="card-body">A web app created to keep users up-to-date on the current prices of various cryptocurrencies and stocks. 
+                                Also features calculators, such as the fear-of-missing-out calculator, intended to make you feel bad about 
+                                not investing in Bitcoin soon enough. <br/><br/>Uses the <a href="https://www.cryptocompare.com/" target="_blank">CryptoCompare</a> 
+                                &amp; <a href="https://iextrading.com/" target="_blank">IEX</a> API's.</p>
+                            <p><a href="https://github.com/WeaverDyl/crypto-stock-tools-ghp" target="_blank">Source Code</a></p>
+                            <p><a href="https://www.weaverdyl.com/crypto-stock-tools-ghp/" target="_blank">Live Demo</a></p>
+
+                            <span class="badge badge-pill badge-primary">HTML</span>
+                            <span class="badge badge-pill badge-primary">JavaScript</span>
+                            <span class="badge badge-pill badge-primary">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <div id="reddit-analysis" class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top rounded" src="images/redditcommentthumbnail.png">
+                        <div class="card-body">
+                            <h3 class="font-weight-bold">Reddit Comment Analysis</h3>
+                            <p class="card-body">A non-scientific analysis of Reddit comments. Using a Reddit bot written in Python, this program writes
+                                comment metadata to a file, which is then used to compile statistics on the collected comments. Such statistics
+                                include which subreddits had the most comments (from the data), which subreddits had the most
+                                comments deleted, and more.<br/><br/>Uses <a href="https://matplotlib.org/" target="_blank">matplotlib</a> to create charts.</p>
+                            <p><a href="https://github.com/WeaverDyl/Reddit-Comment-Analysis" target="_blank">Source Code</a></p>
+
+                            <span class="badge badge-pill badge-primary">Python</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div id="secret-sants" class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top rounded" src="images/secretsantathumbnail.png">
+                        <div class="card-body">
+                            <h3 class="font-weight-bold">Secret Santa Matcher</h3>
+                            <p class="card-body">This program automates the secret santa process. Just enter everybody's name and phone number in the included
+                                JSON file, and the program will automatically create pairs. When the pairs are created, a text message is sent
+                                to each participant telling them who to buy a gift for!<br/><br/>Achieved with the <a href="https://www.twilio.com/" target="_blank">Twilio</a> API.</p>
+                            <p><a href="https://github.com/WeaverDyl/Secret-Santa-Matcher" target="_blank">Source Code</a></p>
+
+                            <span class="badge badge-pill badge-primary">Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="smallc-compiler" class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top rounded" src="images/smallcthumbnail.png">
+                        <div class="card-body">
+                            <h3 class="font-weight-bold">SmallC Lexer, Parser, Interpreter (CMSC330)</h3>
+                            <p class="card-body">This program allows you to essentially compile a small subset of the C programming language, and was written entirely
+                                in OCaml. The small subset of C is still turing complete, and deals with int and boolean data types.</p>
+							<p><a href="https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p3a" target="_blank">Lexer &amp; Parser Project Description</a></p>
+                            <p><a href="https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p3b" target="_blank">Interpreter Project Description</a></p>
+
+                            <span class="badge badge-pill badge-primary">OCaml</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="hiscore-tool" class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top rounded" src="images/hiscorethumbnail.png">
+                        <div class="card-body">
+                            <h3 class="font-weight-bold">OSRS Hiscore Tool</h3>
+                            <p class="card-body">A simple program that takes in a list of users, which can be loaded and saved to a file, and
+                                ranks the users by amount of total levels and total experience at the time of running the program.</p>
+                            <p><a href="https://github.com/WeaverDyl/OSRS-Clan-Hiscore-Ranker" target="_blank">Source Code</a></p>
+
+                            <span class="badge badge-pill badge-primary">Java</span>
+                            <span class="badge badge-pill badge-primary">Swing</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div id="skill-tracker" class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top rounded" src="images/skilltrackerthumbnail.png">
+                        <div class="card-body">
+                            <h3 class="font-weight-bold">OSRS Skill Tracker (In Progress)</h3>
+                            <p class="card-body">A combination of the OSRS Hiscore Tool as well as another tool from my Github profile. Used to Tracker
+                                various user's experience gains in specific skills over a time period. Returns a ranked list of users by amount of experience gained
+                                as well as amount of levels gained in the tracked skill.
+                            </p>
+							
+							<p><a href="https://github.com/WeaverDyl/OSRS-Skill-Tracker" target="_blank">Source Code</a></p>
+
+                            <span class="badge badge-pill badge-primary">Java</span>
+                            <span class="badge badge-pill badge-primary">Swing</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

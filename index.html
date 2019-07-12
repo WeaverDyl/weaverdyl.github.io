@@ -22,16 +22,32 @@
         <div id="projects" class="container text-center mt-5">
             <h1>Selected Projects</h1>
             <p class="lead mb-3">View all of my projects on my <a href="https://github.com/WeaverDyl" target="_blank">Github profile</a>.</p>
-        
+
             <div class="row">
-                <div id="cstools" class="col-md-4 mb-3">
+                <div id="redditdataviz" class="col-md-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top rounded" src="images/redditdatavizthumbnail.png">
+                        <div class="card-body">
+                            <h3 class="font-weight-bold">Reddit Phrase Tracker</h3>
+                            <p class="card-body">This simple program allows you to track the frequency of a certain phrase in a Reddit thread over time. Using the
+								Pushshift API, comments matching the given phrase are quickly gathered and saved in a CSV file. This file is then easily plotted using
+								ggplot in R. <br /><br />Uses the <a href="https://pushshift.io/" target="_blank">Pushshift</a> API.</p>
+							<p><a href="https://github.com/WeaverDyl/Reddit-Phrase-Tracker" target="_blank">Source Code</a></p>
+
+                            <span class="badge badge-pill badge-primary">Python</span>
+                            <span class="badge badge-pill badge-primary">R</span>
+                        </div>
+                    </div>
+                </div>
+
+				<div id="cstools" class="col-md-4 mb-3">
                     <div class="card">
                         <img class="card-img-top rounded" src="images/cstoolsthumbnail.png">
                         <div class="card-body">
                             <h3 class="font-weight-bold">Cryptocurrency &amp; Stock Tools</h3>
-                            <p class="card-body">A web app created to keep users up-to-date on the current prices of various cryptocurrencies and stocks. 
-                                Also features calculators, such as the fear-of-missing-out calculator, intended to make you feel bad about 
-                                not investing in Bitcoin soon enough. <br/><br/>Uses the <a href="https://www.cryptocompare.com/" target="_blank">CryptoCompare</a> 
+                            <p class="card-body">A web app created to keep users up-to-date on the current prices of various cryptocurrencies and stocks.
+                                Also features calculators, such as the fear-of-missing-out calculator, intended to make you feel bad about
+                                not investing in Bitcoin soon enough. <br/><br/>Uses the <a href="https://www.cryptocompare.com/" target="_blank">CryptoCompare</a>
                                 &amp; <a href="https://iextrading.com/" target="_blank">IEX</a> API's.</p>
                             <p><a href="https://github.com/WeaverDyl/crypto-stock-tools-ghp" target="_blank">Source Code</a></p>
                             <p><a href="https://www.weaverdyl.com/crypto-stock-tools-ghp/" target="_blank">Live Demo</a></p>
@@ -43,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-        
+
                 <div id="reddit-analysis" class="col-md-4 mb-3">
                     <div class="card">
                         <img class="card-img-top rounded" src="images/redditcommentthumbnail.png">
@@ -59,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-    
+
 				<div id="skill-tracker" class="col-md-4 mb-3">
                     <div class="card">
                         <img class="card-img-top rounded" src="images/skilltrackerthumbnail.png">
@@ -69,7 +85,7 @@
                                 various user's experience gains in specific skills over a time period. Returns a ranked list of users by amount of experience gained
                                 as well as amount of levels gained in the tracked skill.
                             </p>
-							
+
 							<p><a href="https://github.com/WeaverDyl/OSRS-Skill-Tracker" target="_blank">Source Code</a></p>
 
                             <span class="badge badge-pill badge-primary">Java</span>
@@ -77,21 +93,6 @@
                         </div>
                     </div>
 				</div>
-
-                <div id="smallc-compiler" class="col-md-4 mb-3">
-                    <div class="card">
-                        <img class="card-img-top rounded" src="images/smallcthumbnail.png">
-                        <div class="card-body">
-                            <h3 class="font-weight-bold">SmallC Lexer, Parser, Interpreter (CMSC330)</h3>
-                            <p class="card-body">This program allows you to build and run a small subset of the C programming language, and was written entirely
-                                in OCaml. The small subset of C is still turing complete, and deals with int and boolean data types.</p>
-							<p><a href="https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p3a" target="_blank">Lexer &amp; Parser Project Description</a></p>
-                            <p><a href="https://github.com/anwarmamat/cmsc330spring18-public/tree/master/p3b" target="_blank">Interpreter Project Description</a></p>
-
-                            <span class="badge badge-pill badge-primary">OCaml</span>
-                        </div>
-                    </div>
-                </div>
 
                 <div id="hiscore-tool" class="col-md-4 mb-3">
                     <div class="card">
@@ -107,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-    
+
 				<div id="secret-santa" class="col-md-4 mb-3">
                     <div class="card">
                         <img class="card-img-top rounded" src="images/secretsantathumbnail.png">
@@ -124,7 +125,7 @@
                 </div>
 			</div>
         </div>
-		
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     </body>
